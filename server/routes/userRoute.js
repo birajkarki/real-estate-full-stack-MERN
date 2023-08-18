@@ -1,9 +1,13 @@
 import express from "express";
-
-import { createUser } from "../controllers/userCntrl.js";
-
+import {
+  createResidency,
+  getAllResidencies,
+  getResidency,
+} from "../controllers/resdCntrl.js";
+import jwtCheck from "../config/auth0Config.js";
 const router = express.Router();
 
-router.post("/register", createUser);
-
-export { router as userRoute };
+router.post("/create", jwtCheck, createResidency);
+router.get("/allresd", getAllResidencies);
+router.get("/:id", getResidency);
+export { router as residencyRoute };
