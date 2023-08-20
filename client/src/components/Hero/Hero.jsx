@@ -11,21 +11,27 @@ const Hero = () => {
           <div className="hero-title">
             <div className="orange-circle" />
             <motion.h1
-            initial={{ y: "2rem", opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{
-              duration: 2,
-              type: "ease-in",
-            }}
+              initial={{ y: "2rem", opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{
+                duration: 2,
+                type: "ease-in",
+              }}
             >
-              Discover <br />
-              Most Suitable
-              <br /> Property
+              Explore <br />
+              Your Ideal
+              <br /> Residencies
             </motion.h1>
           </div>
           <div className="flexColStart secondaryText flexhero-des">
-            <span>Find a variety of properties that suit you very easilty</span>
-            <span>Forget all difficulties in finding a residence for you</span>
+            <span>
+              Discover a diverse range of properties that perfectly match your
+              preferences.
+            </span>
+            <span>
+              Leave behind all the challenges of searching for your ideal
+              residence.
+            </span>
           </div>
 
           <div className="flexCenter search-bar">
@@ -69,7 +75,7 @@ const Hero = () => {
             }}
             className="image-container"
           >
-            <img src="./hero-image.png" alt="houses" />
+            <img src="./new-hero-house.jpg" alt="houses" />
           </motion.div>
         </div>
       </div>

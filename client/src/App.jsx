@@ -1,5 +1,6 @@
-import "./App.css";
 
+import React, { Suspense } from 'react'
+import "./App.css";
 import Website from "./pages/Website";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {

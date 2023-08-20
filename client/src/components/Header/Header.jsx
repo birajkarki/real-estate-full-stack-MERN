@@ -12,9 +12,11 @@ const Header = () => {
   return (
     <section className="h-wrapper" style={{ background: headerColor }}>
       <div className="flexCenter innerWidth paddings h-container">
+        <span style={{ fontSize: "24px", fontWeight: "bold", color: "cream" }}>
+          Vogue Reside
+        </span>
         {/* logo */}
-        <img src="./logo.png" alt="logo" width={100} />
-
+        {/* <img src="./main-logo.png" alt="logo" width={100} /> */}
         {/* menu */}
         <OutsideClickHandler
           onOutsideClick={() => {
@@ -35,7 +37,6 @@ const Header = () => {
             </button>
           </div>
         </OutsideClickHandler>
-
         {/* for medium and small screens */}
         <div
           className="menu-icon"
