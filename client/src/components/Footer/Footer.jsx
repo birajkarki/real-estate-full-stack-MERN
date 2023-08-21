@@ -6,12 +6,7 @@ const Footer = () => {
       <div className="paddings innerWidth flexCenter f-container">
         {/* left side */}
         <div className="flexColStart f-left">
-          <span
-            style={{ fontSize: "24px", fontWeight: "bold", color: "cream" }}
-          >
-            Vogue Reside
-          </span>
-          {/* <img src="./logo2.png" alt="" width={120} /> */}
+          <img src="./logo.png" alt="" width={200} />
           <span className="secondaryText">
             Our vision is to make all people <br />
             the best place to live for them.

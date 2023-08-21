@@ -14,14 +14,9 @@ const Header = () => {
     <section className="h-wrapper" style={{ background: headerColor }}>
       <div className="flexCenter innerWidth paddings h-container">
         <Link to="/">
-          <span
-            style={{ fontSize: "24px", fontWeight: "bold", color: "cream" }}
-          >
-            Vogue Reside
-          </span>
+          <img src="./logo-main.png" alt="logo" width={200} />
         </Link>
         {/* logo */}
-        {/* <img src="./main-logo.png" alt="logo" width={100} /> */}
         {/* menu */}
         <OutsideClickHandler
           onOutsideClick={() => {
