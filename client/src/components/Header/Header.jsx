@@ -4,7 +4,7 @@ import { BiMenuAltRight } from "react-icons/bi";
 import { getMenuStyles } from "../../utils/common";
 import useHeaderColor from "../../hooks/useHeaderColor";
 import OutsideClickHandler from "react-outside-click-handler";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
@@ -28,13 +28,11 @@ const Header = () => {
             className="flexCenter h-menu"
             style={getMenuStyles(menuOpened)}
           >
-            <a href="#residencies">Residencies</a>
-            <a href="#value">Our Value</a>
-            <a href="#contact-us">Contact Us</a>
-            <a href="#get-started">Get Started</a>
-            <button className="button">
-              <a href="mailto:zainkeepscode@gmail.com">Contact</a>
-            </button>
+            <NavLink to="/properties">Properties</NavLink>
+            <a href="mailto:birajkarki9849@gmail.com">Contact</a>
+
+            {/* login button  */}
+            <button className="button">Login</button>
           </div>
         </OutsideClickHandler>
         {/* for medium and small screens */}
