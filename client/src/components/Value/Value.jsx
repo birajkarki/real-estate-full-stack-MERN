@@ -34,10 +34,9 @@ const Value = () => {
           <span className="primaryText">Value We Give to You</span>
 
           <span className="secondaryText">
-            At every step, we stand ready to assist you with top-notch services.{" "}
+            We always ready to help by providijng the best services for you.
             <br />
-            We firmly believe that a harmonious living space has the power to
-            enrich your life.
+            We beleive a good blace to live can make your life better
           </span>
 
           <Accordion

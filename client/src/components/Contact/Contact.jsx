@@ -26,7 +26,7 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Call</span>
-                    <span className="secondaryText">+977 9808426215</span>
+                    <span className="secondaryText">021 123 145 14</span>
                   </div>
                 </div>
                 <div className="flexCenter button">Call now</div>
@@ -38,8 +38,8 @@ const Contact = () => {
                     <BsFillChatDotsFill size={25} />
                   </div>
                   <div className="flexColStart detail">
-                    <span className="primaryText">Whatsapp</span>
-                    <span className="secondaryText">9808426215</span>
+                    <span className="primaryText">Chat</span>
+                    <span className="secondaryText">021 123 145 14</span>
                   </div>
                 </div>
                 <div className="flexCenter button">Chat now</div>
@@ -47,7 +47,7 @@ const Contact = () => {
             </div>
 
             {/* second row */}
-            {/* <div className="flexStart row">
+            <div className="flexStart row">
               <div className="flexColCenter mode">
                 <div className="flexStart">
                   <div className="flexCenter icon">
@@ -55,7 +55,7 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Video Call</span>
-                    <span className="secondaryText">9808426215</span>
+                    <span className="secondaryText">021 123 145 14</span>
                   </div>
                 </div>
                 <div className="flexCenter button">Video Call now</div>
@@ -73,7 +73,7 @@ const Contact = () => {
                 </div>
                 <div className="flexCenter button">Message now</div>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
 
